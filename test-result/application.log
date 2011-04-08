@@ -1,0 +1,6 @@
+08 avr. 2011 14:47:35,063 INFO  ~ Starting /Users/TTing/play-1.1.1/Dolomite
+08 avr. 2011 14:47:35,068 INFO  ~ Module secure is available (/Users/TTing/play-1.1.1/modules/secure)
+08 avr. 2011 14:47:35,964 WARN  ~ You're running Play! in DEV mode
+08 avr. 2011 14:47:36,077 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+08 avr. 2011 14:48:24,275 INFO  ~ Connected to jdbc:hsqldb:mem:playembed
+08 avr. 2011 14:48:24,399 INFO  ~ Application 'Dolomite' is now started !

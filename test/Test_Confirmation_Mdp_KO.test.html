@@ -1,28 +1,16 @@
-
-#{selenium 'Scénario 1'}
-		click("valider");
-		type("confirmer votre mot de passe", "");
-		type("mot de passe", "");
-
-#{/selenium}
-
-#{selenium 'Scénario 2'}
-		click("valider");
-		type("confirmez votre mot de passe", "");
-		type("mot de passe", "secret");
-
-#{/selenium}
-
-#{selenium 'Scénario 3'}
-		click("valider");
-		type("confirmez votre mot de passe", "caché");
-		type("mot de passe", "secret");
-
-#{/selenium}
-
-#{selenium 'Scénario 4'}
-		click("valider");
-		type("confirmez votre mot de passe", "secret");
-		type("mot de passe", "secret");
-
-#{/selenium}
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1038.29">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times}
+  </style>
+</head>
+<body>
+<p class="p1">#{selenium 'Scenario 1'} click("valider"); type("confirmer votre mot de passe", ""); type("mot de passe", ""); #{/selenium} #{selenium 'Scenario 2'} click("valider"); type("confirmez votre mot de passe", ""); type("mot de passe", "secret"); #{/selenium} #{selenium 'Scenario 3'} click("valider"); type("confirmez votre mot de passe", "cache"); type("mot de passe", "secret"); #{/selenium} #{selenium 'Scenario 4'} click("valider"); type("confirmez votre mot de passe", "secret"); type("mot de passe", "secret"); #{/selenium}</p>
+</body>
+</html>
