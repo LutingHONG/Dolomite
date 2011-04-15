@@ -52,8 +52,6 @@ public class LdapTest extends UnitTest {
 		//assertEquals("Flora", flo.getFirstname());
 		
 		flo.updateUser("flora.dupont@utt.fr", "hehehe", "arolf", "tnopud");
-
-
 		
 		LdapUser floModified = LdapUser.connect("flora.dupont", "hehehe");
 		LdapUser floWithOldPwd = LdapUser.connect("flora.dupont", "test");
@@ -76,14 +74,11 @@ public class LdapTest extends UnitTest {
 		new LdapUser("flora.dupont@utt.fr", "test", "Flora", "Dupont", "flora.dupont").addUser();
 		LdapUser flo = LdapUser.connect("flora.dupont", "test");
 		
-		flo.deleteUser();
 		assertNotNull(flo);
 		
-		
-		
 		LdapUser flo2 = LdapUser.connect("flora.dupont", "test");
-		
 		assertNull(flo2);
+		flo.deleteUser();
 	
 	}
 	
